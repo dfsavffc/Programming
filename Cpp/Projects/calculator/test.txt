@@ -1,0 +1,50 @@
+1+1
+2 + 2;2;
+(11-9)/2
+2 + 2*2
+12 ^ 2; 2^(3! - 1)
+16 ^ (1/2)
+2 ^ -1;
+- 6 - (5!);
+-1!
+2 ^ |-10|
+|-81| ^ 0.25;
+cos (0); sin(0); sin(pi/2); cos(-16*pi)
+tg (pi/2); tg(1); tg(pi/6); ctg(pi); ctg(pi/2)
+lg(10); lg(1); lg(100); lg(-10); lg(0); lg(1);
+ln(e); ln(2*e); ln(10); ln(-e); ln(0); ln(1)
+let x = 2
+let x = 3; x = 4; const x = 6
+let x = 7; x = 7;
+let y = 10;
+x + y; x!; y = x-2
+let r = x^2 + y^2
+r = r^0.5
+2++; -12%
+;
+;;;
+--;
+-
+eq
+*11
+DEjaf;
+10&11; -10*6(2&9);
+11&7.6; 10%3
+ltx = 2; z = 18; let z;
+const y 19; const = y;
+const x_y = 11; const x_y
+11(-1); *8 + 1; 7 +- 8; 7*/ 15
+sin
+cos11 + sin11
+cos(10)^2 + sin(10)^2
+z -= 1;
+let r = u + 15;
+10 - r;
+10 - u
+cos(pi/2);
+$hrpda ; 1+1
+$he lp
+help; quit
+$help _;   +1 - 1; 1*das(-11)&65
+$help
+quit; $quit 9; $ quit

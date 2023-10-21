@@ -1,0 +1,12 @@
+# ninja log v5
+4	799	1696597652812003910	CMakeFiles/logic_circuits.dir/elements.cpp.o	20e083215edf29bc
+781	917	1696597826196066664	logic_circuits	68e244128773d47c
+8	781	1696597826057730186	CMakeFiles/logic_circuits.dir/main.cpp.o	d5dfbaad89fefaf6
+3	858	1696626354482076887	CMakeFiles/logic_circuits.dir/main.cpp.o	d5dfbaad89fefaf6
+858	1055	1696626354681833724	logic_circuits	68e244128773d47c
+4	724	1696627099528881272	CMakeFiles/logic_circuits.dir/elements.cpp.o	20e083215edf29bc
+3	742	1696627099548608345	CMakeFiles/logic_circuits.dir/main.cpp.o	d5dfbaad89fefaf6
+742	955	1696627099761896369	logic_circuits	68e244128773d47c
+4	770	1696627477592693864	CMakeFiles/logic_circuits.dir/elements.cpp.o	20e083215edf29bc
+3	780	1696627477604400537	CMakeFiles/logic_circuits.dir/main.cpp.o	d5dfbaad89fefaf6
+780	916	1696627477740265547	logic_circuits	68e244128773d47c

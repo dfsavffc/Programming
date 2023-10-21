@@ -1,0 +1,6 @@
+#ifndef LOGIC_CIRCUITS_ELEMENTS_DECLARE_H
+#define LOGIC_CIRCUITS_ELEMENTS_DECLARE_H
+#include "elements.h"
+
+
+#endif

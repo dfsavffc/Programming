@@ -1,0 +1,8 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/Dfsavffc/Cpp/Projects/graph_test -B /Users/Dfsavffc/Cpp/Projects/graph_test/cmake-build-debug
+-- Could NOT find X11 (missing: X11_X11_INCLUDE_PATH X11_X11_LIB) 
+-- Found FLTK: /Users/Dfsavffc/Cpp/lib/FLTK/lib/libfltk_images.a;/Users/Dfsavffc/Cpp/lib/FLTK/lib/libfltk_forms.a;/Users/Dfsavffc/Cpp/lib/FLTK/lib/libfltk_gl.a;/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework;/Users/Dfsavffc/Cpp/lib/FLTK/lib/libfltk.a  
+CMake Error at CMakeLists.txt:15 (cmake_path):
+  cmake_path does not recognize sub-command LIB_DIR
+
+
+-- Configuring incomplete, errors occurred!

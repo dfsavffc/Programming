@@ -1,0 +1,5 @@
+# ninja log v5
+1	852	1697275547272141910	graph_test/CMakeFiles/graph.dir/Users/Dfsavffc/Cpp/lib/Graph_lib/Window.cpp.o	83e4361f1cd2d86b
+1	869	1697275547288663030	graph_test/CMakeFiles/graph.dir/Users/Dfsavffc/Cpp/lib/Graph_lib/GUI.cpp.o	df08e9ea4a0b5785
+3	1017	1697275772905829876	graph_test/CMakeFiles/graph.dir/main.cpp.o	715ac1729cad96c9
+1	1265	1697275547685845658	graph_test/CMakeFiles/graph.dir/Users/Dfsavffc/Cpp/lib/Graph_lib/Graph.cpp.o	5feaf747e73e733a
