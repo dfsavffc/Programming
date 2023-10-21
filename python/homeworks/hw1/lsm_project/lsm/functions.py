@@ -139,22 +139,6 @@ def _process_mismatch(
     return abscissa, ordinates
 
 
-# служебная функция для получения статистик
-def _get_lsm_statistics(
-    abscissa: list[float], ordinates: list[float]
-) -> LSMStatistics:
-    global event_logger, PRECISION
-
-    # ваш код
-    # эту строчку можно менять
-    return LSMStatistics(
-        abscissa_mean=0,
-        ordinate_mean=0,
-        product_mean=0,
-        abs_squared_mean=0
-    )
-
-
 # служебная функция для получения описания МНК
 def _get_lsm_description(
     abscissa: list[float], ordinates: list[float]
