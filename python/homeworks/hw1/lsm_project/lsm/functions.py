@@ -10,7 +10,6 @@ from ..event_logger.event_logger import EventLogger
 from .enumerations import MismatchStrategies
 from .models import (
     LSMDescription,
-    LSMStatistics,
     LSMLines,
 )
 
@@ -39,11 +38,13 @@ def get_lsm_description(
     if not (type(list(abscissa)) is list and type(list(ordinates)) is list):
         raise TypeError
 
-    if not (_is_valid_measurments(abscissa) and _is_valid_measurments(ordinates)):
+    if not (_is_valid_measurments(abscissa) and
+            _is_valid_measurments(ordinates)):
         raise ValueError
 
     if len(abscissa) != len(ordinates):
-        abscissa, ordinates = _process_mismatch(abscissa, ordinates, mismatch_strategy)
+        abscissa, ordinates = \
+            _process_mismatch(abscissa, ordinates, mismatch_strategy)
 
     return _get_lsm_description(abscissa, ordinates)
 
@@ -65,12 +66,11 @@ def get_lsm_lines(
         lsm_description = get_lsm_description(abscissa, ordinates)
     if type(lsm_description) is not LSMDescription:
         raise TypeError
-
     line_predicted = [(lsm_description.incline*x + lsm_description.shift) for x in abscissa]
-    line_above = [((lsm_description.incline+lsm_description.incline_error)*x + lsm_description.shift
-                   + lsm_description.shift_error) for x in abscissa]
-    line_under = [((lsm_description.incline-lsm_description.incline_error)*x + lsm_description.shift
-                   - lsm_description.shift_error) for x in abscissa]
+    line_above = [((lsm_description.incline+lsm_description.incline_error)*x +
+                   lsm_description.shift + lsm_description.shift_error) for x in abscissa]
+    line_under = [((lsm_description.incline-lsm_description.incline_error)*x +
+                   lsm_description.shift - lsm_description.shift_error) for x in abscissa]
 
     return LSMLines(
         abscissa=abscissa,
